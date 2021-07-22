@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    [class*="col-"] {
+      float: left;
+      padding: 15px;
+    }
+    
+    html {
+      font-family: "Lucida Sans", sans-serif;
+    }
+    
+    .header {
+      background-color: #aee09e;
+      color: #4a5e54;
+      padding: 15px;
+    }
+    
+    .menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .menu li {
+      padding: 8px;
+      margin-bottom: 7px;
+      background-color: #f3eba2;
+      color: #56578f;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    
+    .menu li:hover {
+      background-color: #aee09e;
+    }
+    
+    .aside {
+      background-color: #aee09e;
+      padding: 15px;
+      color: #235833;
+      text-align: center;
+      font-size: 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    
+    .footer {
+      background-color: #aee09e;
+      color: #415f4e;
+      text-align: center;
+      font-size: 12px;
+      padding: 15px;
+    }
+    
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+    @media only screen and (min-width: 768px) {
+      /* For desktop: */
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+    }
+    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css1.css">
+</head>
+<body style="background-color: lightyellow;">
+ 
+<div class="header">
+  <h1>Looking for something?<br><a href="main.html">Main</a><br><a href="form2.html">Fill this form out!</a></h1>
+</div>
+
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+      <li><a href="https://www.homefinder.ca/">A house?</a></li>
+      <li><a href="https://www.arcgis.com/apps/webappviewer/index.html?id=cbde9b88bd8f45359cfd7622952dcf5a">A city?</a></li>
+      <li><a href="https://www.topagentsranked.ca/signup02?gclid=EAIaIQobChMIo8Xq0Jr08QIVqWxvBB17xgfCEAAYASAAEgKrN_D_BwE&utm_account=TAR+Canada&utm_account_id=8493182658&utm_account_name=TAR+Canada&utm_adgroup=Realtors&utm_adgroup_id=70338166692&utm_adposition=&utm_campaign=TAR+BM+National&utm_campaign_id=1672523944&utm_click_loc=9000081&utm_creative_id=324036204904&utm_device=c&utm_devicemodel=&utm_interest_loc=&utm_locale=national&utm_matchtype=p&utm_medium=cpc&utm_network=s&utm_sitelink=f&utm_source=google&utm_term=find+realtors&utm_term_id=kwd-173469720">A local agent?</a></li>
+      <li><a href="https://www.ubereats.com/ca?utm_source=AdWords_NonBrand&utm_campaign=CM2103977-search-google-nonbrand_32_-99_CA-National_e_web_acq_cpc_en_SATest_Generics_BMM_%2Bfood_kwd-1098613077_485830995051_127416416347_b_c&campaign_id=13789261612&adg_id=127416416347&fi_id=&match=b&net=g&dev=c&dev_m=&ad_id=485830995051&cre=485830995051&kwid=kwd-1098613077&kw=%2Bfood&placement=&tar=&gclid=EAIaIQobChMIr7_Z5Zr08QIVA3xvBB1WcwJhEAAYASAAEgIPNvD_BwE&gclsrc=aw.ds">Food Break?</a></li>
+    </ul>
+  </div>
+
+  
+
+  <div class="col-6">
+    <h1></h1>
+  
+  </div>
+
+  <div class="col-3 right">
+    <div class="aside">
+      <h2>Why?</h2>
+      <p>becuase everyone need a good place to live</p>
+      <h2>Where?</h2>
+      <p>anywhere you like</p>
+      <h2>How?</h2>
+      <p>by serching your favorite place and finding a new home!</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Enjoy finding what you need!</p>
+</div>
+</body>
+</html>
